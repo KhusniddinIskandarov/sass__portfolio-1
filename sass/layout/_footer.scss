@@ -1,0 +1,56 @@
+.footer {
+    background-color: $color-bg-2;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    border-radius: 200px 200px 0 0;
+    @include responsive(desktop){
+        font-size: 14px;
+    }
+    .container {
+        position: relative;
+        @include responsive(lg-desktop){
+            padding: 0 10px;
+        }
+    }
+    &__slogan{
+        line-height: 27px;
+    }
+    p,a {
+        font-size: 16px;
+    }
+    &__text-box{
+        width: 40%;
+    }
+    &__list-box {
+        width: 50%;
+        li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+    &__download{
+        width: 100%; 
+        h2 {
+            ~ a {
+                vertical-align: middle;
+            }
+            + a > {
+                img {             
+                    width: 12%;
+                }
+            }
+            + a + a > {
+                img {
+                    width: 15.5%;
+                }
+            }
+        }
+    }
+    &__copy-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+

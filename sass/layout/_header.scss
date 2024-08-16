@@ -1,0 +1,39 @@
+.header {
+    border-radius: 0 0 200px 200px;
+    padding: {
+        top: 60px;
+        bottom: 250px;
+    }
+    background: {
+        image: linear-gradient(to top,
+        rgba($color-secondary, .4),
+        rgba($color-secondary, .4)),
+        url("/image/PB0cLGphA7iDFyK.jpeg");
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+    }
+
+    &__text-box {
+        width: 40%;
+        @include responsive(lg-desktop){
+            width: 60%;
+        }
+        margin: 250px auto 0 auto;
+        color: $color-white;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 80px;
+        @include responsive(desktop){
+            font-size: 70px;
+        }   
+        margin-bottom: 60px;
+    }
+
+    &__link {
+        margin-top: 30px;
+    }
+}
+

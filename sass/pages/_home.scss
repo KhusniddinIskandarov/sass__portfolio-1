@@ -1,0 +1,50 @@
+.feature {
+    transform: translateY(-30%);
+    @include responsive(desktop){
+        transform: translateY(-20%);
+    }
+}
+
+.explore {
+    margin-top: 50px;
+    text-align: center;
+
+    &__img-title {
+        width: 120px;
+    }
+
+    &__title {
+        width: 40%;
+        @include responsive(lg-desktop){
+            width: 50%;
+        }
+        margin: 0 auto;
+    }   
+}
+
+.touch {
+    margin-top: 150px;
+    &__box {
+        background-color: $color-bg-2;
+        border-radius: $border-radius;
+        padding: 40px;
+        align-items: center;
+        background-image: url("/image/abstract-shape.png");
+        background-repeat: no-repeat;
+        box-shadow: 5px 30px 50px rgba($color-secondary, .05);  
+        @include responsive(desktop) {
+            background-size: cover;
+            background-position: -300px 60%;
+        }
+    }  
+    .form {
+        width: 50%;
+    }
+    &__image {
+        width: 30%;
+    }    
+}
+
+.footer {
+    margin-top: 150px;
+}

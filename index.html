@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./fonts/Archivo/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Roboto/stylesheet.css">
+    <title>Sass Portfolio-1</title>
+</head>
+<body>
+
+    <secction id="top" class="header">
+        <nav class="nav">
+            <div class="container">
+                <a href="#" class="nav__logo">
+                    <img style="width: 40px; border-radius: 50%;" src="./image/logo.jpg" alt="logo">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Destination</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Near me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Events</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Gallery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact us</a>
+                    </li>
+                </ul>
+                <div class="nav__right">
+                    <a href="#" class="sign-up">Sign up</a>
+                    <a href="#" class="sign-in">Sign in</a>
+                </div>
+                <!-- <button class="nav__burger">
+                    <img style="width: 40px;" src="./image/menu.png" alt="burger button">
+                </button> -->
+            </div>
+        </nav>
+        <div class="header__text-box">
+            <h1 class="header__title">Find Yourself Outside.</h1>
+            <p class="header__subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea sit in facere tempora dolore eveniet?     
+            </p>
+            <a href="#" class="header__link btn btn--primary">Discover</a>
+        </div>
+    </secction>
+    
+    <section class="feature">
+        <div class="container">
+            <h1 class="visually-hidden">Feature</h1>
+            <ul class="feature__list row">
+                <li class="col-1-of-4">
+                    <div class="feature-box">
+                        <img src="./image/quran-reading.png" alt="efature image"
+                         class="feature-image">
+                         <h2 class="feature-title">Lorem ipsum dolor.</h2>
+                         <p class="feature-text">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Ullam, dolores?
+                         </p>
+                    </div>
+                </li>
+                <li class="col-1-of-4">
+                    <div class="feature-box">
+                        <img src="./image/coffee.png" alt="efature image"
+                         class="feature-image">
+                         <h2 class="feature-title">Lorem ipsum dolor.</h2>
+                         <p class="feature-text">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Ullam, dolores?
+                         </p>
+                    </div>
+                </li>
+                <li class="col-1-of-4">
+                    <div class="feature-box">
+                        <img src="./image/badge.png" alt="efature image"
+                         class="feature-image">
+                         <h2 class="feature-title">Lorem ipsum dolor.</h2>
+                         <p class="feature-text">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Ullam, dolores?
+                         </p>
+                    </div>
+                </li>
+                <li class="col-1-of-4">
+                    <div class="feature-box">
+                        <img src="./image/birdhouse.png" alt="efature image"
+                         class="feature-image">
+                         <h2 class="feature-title">Lorem ipsum dolor.</h2>
+                         <p class="feature-text">
+                            Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Ullam, dolores?
+                         </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="explore">
+        <div class="container">
+            <img src="./image/distance.png" alt="explore image-title"
+            class="explore__img-title mb-5">
+            <h1 class="explore__title mb-7">Explore Destinations & Activities</h1>
+            <ul class="explore__list row mb-3">
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/56bc704c-9bb0-471c-8e30-7d014e0d7a82-worlds-beautiful-rock-formations-devils-tower.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/beautiful-mountain-pictures-1313-x-875-kndkzw76a1vof5xr.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+                
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2EwMTYtamVyZW15Yi01MC5qcGc (1).webp" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/Wheeler-Geologic-Area-2000px-CloseUp.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/vermont_forest_don_jacobson_header.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/webimage-CDF320E3-907D-4435-874A5243A54B738F.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+                
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/istockphoto-2101175462-170667a.webp" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/burnell-4.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/craig-zerbe-getty-grand-canyon.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/news_2538-890-520-20230327110653.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+                
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/pngtree-nature-wallpaper-a-path-in-beautiful-park-image_2598644.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/Asia-China-Zhangjiajie-Wulingyuan-Scenic-Area-2-1024x768-1.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>    
+                
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/talmie-peak-trail-wa-0pkjf1WRkU0.jpg.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+                
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/20416159.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-1-of-4">
+                    <div class="card">
+                        <div class="card__header">
+                            <img src="./image/aaIvEn.jpg" alt="explore">
+                            <button class="card__like-btn">
+                                <img src="./image/heart.png" alt="like">
+                            </button>
+                        </div>
+                        <p class="card__price">$36/night</p>
+                        <h2 class="card__title">Trickle Creek Ranch</h2>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. Aliquid, placeat?
+                        </p>
+                        <a href="#" class="card__link">Read More</a>
+                    </div>
+                </li> 
+            </ul>
+            <a href="#" class="btn btn--outline">View All</a>
+        </div>
+    </section>
+
+    <section class="touch">
+        <div class="container">
+            <div class="touch__box row">
+                <form action="#" class="form">
+                    <h1 class="form__title">Let's Stay in Touch</h1>
+                    <p class="form__subtitle">
+                        Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. Quibusdam, unde!
+                    </p>
+                    <div class="form__box">
+                        <input type="email" class="form__input" placeholder="Email Address"
+                        required autocapitalize="off">
+                        <button type="submit" class="form__submit">
+                            <img src="./image/telegram.png" alt="">
+                        </button>
+                    </div>
+                </form>
+                <div class="touch__image">
+                    <img src="./image/tent.png" alt="camp photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container row">
+            <a href="#top" class="scroll-up">
+                <i class="fa-solid fa-arrow-right fa-2x"></i>
+            </a>
+            <div class="footer__text-box">
+                <h2 class="footer__title mb-2">Lorem ipsum dolor sit amet consectetur.</h2>
+                <p class="footer__slogan">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore earum 
+                    totam, blanditiis quisquam sint nulla eaque et? Culpa dolor, nam iste
+                    labore beatae unde reprehenderit deserunt quos eligendi hic tempora.
+                </p>
+            </div>
+            <div class="footer__list-box row">
+                <div class="col-1-of-3">
+                    <h2 class=" mb-2">Lorem ipsum.</h2>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                    </ul>
+                </div>
+                <div class="col-1-of-3">
+                    <h2 class=" mb-2">Lorem ipsum.</h2>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                    </ul>
+                </div>
+                <div class="col-1-of-3">
+                    <h2 class=" mb-2">Lorem ipsum.</h2>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                    </ul>
+                </div>             
+            </div>
+            <div class="footer__download mb-6">
+                <h2 class="mb-2">Download Our App</h2>
+                <a href="#" class="download-link">
+                    <img src="./image/badge-google-play-and-app-store-button-download-free-png.webp" alt="app store">
+                </a>
+                <a href="#" class="download-link">
+                    <img src="./image/en_badge_web_generic.png" alt="app stpre">
+                </a>
+            </div>
+            <div class="footer__copy-right">
+                <p>
+                    &copy; 2024. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+

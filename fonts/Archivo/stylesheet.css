@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-BoldItalic.eot');
+    src: url('ArchivoExpanded-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-BoldItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-BoldItalic.woff') format('woff'),
+        url('ArchivoExpanded-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-BlackItalic.eot');
+    src: url('ArchivoExpanded-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-BlackItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-BlackItalic.woff') format('woff'),
+        url('ArchivoExpanded-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-ExtraBoldItalic.eot');
+    src: url('ArchivoExpanded-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-ExtraBoldItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-ExtraBoldItalic.woff') format('woff'),
+        url('ArchivoExpanded-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-ExtraLightItalic.eot');
+    src: url('ArchivoExpanded-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-ExtraLightItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-ExtraLightItalic.woff') format('woff'),
+        url('ArchivoExpanded-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-LightItalic.eot');
+    src: url('ArchivoExpanded-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-LightItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-LightItalic.woff') format('woff'),
+        url('ArchivoExpanded-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-Italic.eot');
+    src: url('ArchivoExpanded-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-Italic.woff2') format('woff2'),
+        url('ArchivoExpanded-Italic.woff') format('woff'),
+        url('ArchivoExpanded-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-MediumItalic.eot');
+    src: url('ArchivoExpanded-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-MediumItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-MediumItalic.woff') format('woff'),
+        url('ArchivoExpanded-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-SemiBoldItalic.eot');
+    src: url('ArchivoExpanded-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-SemiBoldItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-SemiBoldItalic.woff') format('woff'),
+        url('ArchivoExpanded-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Expanded';
+    src: url('ArchivoExpanded-ThinItalic.eot');
+    src: url('ArchivoExpanded-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoExpanded-ThinItalic.woff2') format('woff2'),
+        url('ArchivoExpanded-ThinItalic.woff') format('woff'),
+        url('ArchivoExpanded-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-BlackItalic.eot');
+    src: url('ArchivoSemiExpanded-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-BlackItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-BlackItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-BoldItalic.eot');
+    src: url('ArchivoSemiExpanded-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-BoldItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-BoldItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-ExtraBoldItalic.eot');
+    src: url('ArchivoSemiExpanded-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-ExtraBoldItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-ExtraBoldItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-ExtraLightItalic.eot');
+    src: url('ArchivoSemiExpanded-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-ExtraLightItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-ExtraLightItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-LightItalic.eot');
+    src: url('ArchivoSemiExpanded-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-LightItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-LightItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-Italic.eot');
+    src: url('ArchivoSemiExpanded-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-Italic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-Italic.woff') format('woff'),
+        url('ArchivoSemiExpanded-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-MediumItalic.eot');
+    src: url('ArchivoSemiExpanded-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-MediumItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-MediumItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-SemiBoldItalic.eot');
+    src: url('ArchivoSemiExpanded-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-SemiBoldItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-SemiBoldItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo SemiExpanded';
+    src: url('ArchivoSemiExpanded-ThinItalic.eot');
+    src: url('ArchivoSemiExpanded-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoSemiExpanded-ThinItalic.woff2') format('woff2'),
+        url('ArchivoSemiExpanded-ThinItalic.woff') format('woff'),
+        url('ArchivoSemiExpanded-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('Archivo-BlackItalic.eot');
+    src: url('Archivo-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Archivo-BlackItalic.woff2') format('woff2'),
+        url('Archivo-BlackItalic.woff') format('woff'),
+        url('Archivo-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('Archivo-BoldItalic.eot');
+    src: url('Archivo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Archivo-BoldItalic.woff2') format('woff2'),
+        url('Archivo-BoldItalic.woff') format('woff'),
+        url('Archivo-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('Archivo-ExtraBoldItalic.eot');
+    src: url('Archivo-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Archivo-ExtraBoldItalic.woff2') format('woff2'),
+        url('Archivo-ExtraBoldItalic.woff') format('woff'),
+        url('Archivo-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('Archivo-Italic.eot');
+    src: url('Archivo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Archivo-Italic.woff2') format('woff2'),
+        url('Archivo-Italic.woff') format('woff'),
+        url('Archivo-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('Archivo-LightItalic.eot');
+    src: url('Archivo-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Archivo-LightItalic.woff2') format('woff2'),
+        url('Archivo-LightItalic.woff') format('woff'),
+        url('Archivo-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('Archivo-MediumItalic.eot');
+    src: url('Archivo-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Archivo-MediumItalic.woff2') format('woff2'),
+        url('Archivo-MediumItalic.woff') format('woff'),
+        url('Archivo-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('Archivo-SemiBoldItalic.eot');
+    src: url('Archivo-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Archivo-SemiBoldItalic.woff2') format('woff2'),
+        url('Archivo-SemiBoldItalic.woff') format('woff'),
+        url('Archivo-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Condensed';
+    src: url('ArchivoCondensed-BlackItalic.eot');
+    src: url('ArchivoCondensed-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoCondensed-BlackItalic.woff2') format('woff2'),
+        url('ArchivoCondensed-BlackItalic.woff') format('woff'),
+        url('ArchivoCondensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Condensed';
+    src: url('ArchivoCondensed-BoldItalic.eot');
+    src: url('ArchivoCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoCondensed-BoldItalic.woff2') format('woff2'),
+        url('ArchivoCondensed-BoldItalic.woff') format('woff'),
+        url('ArchivoCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Condensed';
+    src: url('ArchivoCondensed-ExtraBoldItalic.eot');
+    src: url('ArchivoCondensed-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('ArchivoCondensed-ExtraBoldItalic.woff') format('woff'),
+        url('ArchivoCondensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Condensed';
+    src: url('ArchivoCondensed-ExtraLightItalic.eot');
+    src: url('ArchivoCondensed-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('ArchivoCondensed-ExtraLightItalic.woff') format('woff'),
+        url('ArchivoCondensed-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo Condensed';
+    src: url('ArchivoCondensed-Italic.eot');
+    src: url('ArchivoCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoCondensed-Italic.woff2') format('woff2'),
+        url('ArchivoCondensed-Italic.woff') format('woff'),
+        url('ArchivoCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
